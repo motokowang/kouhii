@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+    thing1:
+        build: ./コーヒー
+        container_name: kouhii
+        ports:
+        - 8080:80
